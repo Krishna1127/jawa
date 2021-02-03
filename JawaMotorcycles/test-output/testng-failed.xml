@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="mainTestcases.FortyTwo_Product_Page">
+        <methods>
+          <include name="EXshoroom" invocation-numbers="0 1 2 3 4 5 6 7"/>
+          <include name="TestcaseEnd"/>
+          <include name="bookTestride" invocation-numbers="0"/>
+          <include name="perak_product"/>
+          <include name="EMIcalculator"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- mainTestcases.FortyTwo_Product_Page -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

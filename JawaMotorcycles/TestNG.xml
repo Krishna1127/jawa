@@ -1,0 +1,107 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="JAWA -Testcases">
+
+	<test name="All testcases">
+	
+		<classes>
+		
+		<class name="mainTestcases.HomePageTestcases" >
+			<methods>
+				<include  name="Homepage_validations" />
+				<include  name="financeoffer_validations" />
+				<include  name="EMIcalculator" />
+				<include  name="Kommunity" />
+				<include  name="bookTestride" />
+				<include  name="mediaspotlight_validation" />
+				<include  name="whatsapp_subscription" />
+				<include  name="motorcycles" />
+				<include  name="Kommunity_bottombar" />
+				<include  name="Search_header" />
+				
+			</methods>
+			</class>
+			</classes>
+			</test>
+	<test name="All testcases1">	
+	<classes>	
+		<class name="mainTestcases.LoginTestcases" >
+			<methods>
+				<include  name="loginpage_fail" />
+				<include  name="loginpage_success" />
+				</methods>
+			</class>	
+			</classes>
+			</test>
+	<test name="All testcases2">	
+	<classes>	
+		<class name="maintestcases.MenuTestcases" >
+			<methods>
+				<include  name="Menu_Options_Navigations" />
+						</methods>
+			</class>
+			</classes>
+			</test>	
+	<test name="All testcases3">		
+	<classes>
+		<class name="maintestcases.MyAccount" >
+			<methods>
+				<include  name="Homepage_validations" />
+			
+		</methods>
+			</class>	
+				
+			</classes>
+			</test>
+			<test name="All testcases4">		
+	<classes>
+		<class name="maintestcases.Product_Jawa" >
+			<methods>
+				<include  name="Homepage_validations" />
+				<include  name="EXshoroom" />
+				<include  name="perak_product" />
+				<include  name="bookTestride" />
+				<include  name="booknow" />
+				<include  name="EMIcalculator" />
+				<include  name="Financeoffer" />
+				<include  name="Specifications" />
+				
+				
+		</methods>
+			</class>	
+				
+			</classes>
+			</test>
+			<test name="All testcases5">		
+	<classes>
+		<class name="maintestcases.Product_Perak" >
+			<methods>
+				<include  name="Homepage_validations" />
+				<include  name="EXshoroom" />
+				<include  name="perak_product" />
+				<include  name="bookTestride" />
+				<include  name="booknow" />
+				<include  name="EMIcalculator" />
+				<include  name="Financeoffer" />
+				<include  name="Specifications" />
+				
+				
+		</methods>
+			</class>	
+				
+			</classes>
+			</test>
+			
+			<test name="All testcases6">		
+	<classes>
+		<class name="maintestcases.FortyTwo_Product_Page" >
+			<methods>
+				<include  name="Directout_confirmWithoutGivenAnyinput" />
+				<include  name="directOut_withoutEntryDone" />
+				<include  name="DirectOut_WithEntryDone" />
+		</methods>
+			</class>	
+				
+			</classes>
+			</test>
+			
+</suite>
